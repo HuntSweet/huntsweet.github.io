@@ -1,0 +1,118 @@
+baseURL = "https://huntsweet.github.io/"
+languageCode = "zh-cn"
+title = "HuntSweet的技术博客"
+theme = "stack"
+defaultContentLanguage = "zh-cn"
+
+paginate = 5
+
+[languages.zh-cn]
+languageName = "中文"
+title = "HuntSweet的技术博客"
+weight = 1
+
+[languages.zh-cn.params]
+description = "区块链开发工程师 | 全栈工程师 | MEV研究者"
+
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+
+[params.footer]
+since = 2023
+customText = "区块链开发 | 智能合约 | MEV研究"
+
+[params.dateFormat]
+published = "2006-01-02"
+lastUpdated = "2006-01-02 15:04 MST"
+
+[params.sidebar]
+emoji = "🚀"
+subtitle = "区块链开发工程师 | 全栈工程师"
+
+[params.sidebar.avatar]
+enabled = false
+local = true
+src = "img/avatar.jpg"
+
+[params.article]
+math = false
+toc = true
+readingTime = true
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+[params.widgets.homepage.params]
+limit = 20
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.opengraph.twitter]
+site = ""
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = true
+src = "img/profile.jpg"
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "关于我"
+url = "/about"
+weight = 20
+
+[[menu.main]]
+identifier = "projects"
+name = "项目"
+url = "/projects"
+weight = 30
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories"
+weight = 40
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags"
+weight = 50
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives"
+weight = 60 

@@ -2,6 +2,7 @@ baseURL: "https://huntsweet.github.io/"
 languageCode: "zh-cn"
 title: "HuntSweet的技术博客"
 theme: "stack"
+defaultContentLanguage: "zh-cn"
 
 paginate: 5
 
@@ -59,9 +60,7 @@ params:
 
     opengraph:
         twitter:
-            # Your Twitter username
             site: 
-            # Available values: summary, summary_large_image
             card: summary_large_image
 
     defaultImage:
@@ -71,9 +70,7 @@ params:
             src: img/profile.jpg
 
     colorScheme:
-        # Display toggle
         toggle: true
-        # Available values: auto, light, dark
         default: auto
 
     imageProcessing:
